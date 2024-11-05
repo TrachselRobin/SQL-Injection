@@ -9,8 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.0",
-    "sql-lint": "^1.0.0",
+    "http": "^0.0.1-security",
+    "node-sql-parser": "^5.3.3",
+    "sql-lint": "^0.0.16",
     "sql-parser": "^0.5.0"
   }
 }

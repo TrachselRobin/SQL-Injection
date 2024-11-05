@@ -3,11 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/style.css">
-    <script src="src/js/script.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
     <title>SQLi | Challenge</title>
 </head>
 <body>
-    
+    <header>
+        <form id="nameForm" action="">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text">
+            <button type="submit">Absenden</button>
+        </form>
+    </header>
+
+    <main>
+        <p id="info">Versuchen Sie auf dieses Beispiel Anmeldefeld eine SQL-Injection auszuführen.</p>
+        <form id="injectionForm" action="">
+            <input type="text" name="login" id="login" placeholder="Benutzername">
+            <input type="password" name="password" id="password" placeholder="Passwort">
+            <button type="submit">Absenden</button>
+        </form>
+    </main>
 </body>
 </html>

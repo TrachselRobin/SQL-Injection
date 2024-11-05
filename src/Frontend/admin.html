@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+    <title>SQLi | Admin</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <ul>
+                        <li>Name</li>
+                        <li>Requests</li>
+                        <li>SQLs</li>
+                    </ul>
+                </th>
+            </tr>
+        </thead>
+
+        <tbody id="table-body">
+            <tr>
+                <td class="person">
+                    <ul>
+                        <li>Robin Trachsel</li>
+                        <li>2</li>
+                        <li>1</li>
+                    </ul>
+                </td>
+                <td class="dropdown">
+                    <ul>
+                        <li>2024-09-25</li>
+                        <li>12:00:00</li>
+                        <li>SELECT * FROM users</li>
+                    </ul>
+                    <ul>
+                        <li>2024-09-26</li>
+                        <li>12:00:03</li>
+                        <li>DROP TABLE IF ESISTS users</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
