@@ -1,4 +1,4 @@
-const url = "192.168.1.103"; // change only this to the "IPv4-Adresse" of "Drahtlos-LAN-Adapter WLAN" with ipconfig
+const url = "10.62.146.176"; // change only this to the "IPv4-Adresse" of "Drahtlos-LAN-Adapter WLAN" with ipconfig
 const port = "3000";
 let gamename = "";
 
